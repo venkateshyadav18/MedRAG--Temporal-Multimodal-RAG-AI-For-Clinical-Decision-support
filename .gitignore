@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+*.egg-info/
+
+# Data
+data/raw/**/*.csv
+data/raw/**/*.json
+*.pkl
+*.pt
+
+# Models
+models/checkpoints/**
+models/pretrained/**
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Environment
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# Testing
+.pytest_cache/
+.coverage
